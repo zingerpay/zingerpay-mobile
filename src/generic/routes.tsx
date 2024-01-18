@@ -1,0 +1,12 @@
+export const HOME_SCREEN = "Home";
+export const LOGIN_SCREEN = "Login";
+export const RESETPASSWORD_SCREEN = "Reset_Password";
+export const TABNAVIGATION = "Tab_Navigation";
+export const DRAWERNAVIGATION = "Drawer_Navigation";
+export const MYPROFILE = "My Profile";
+export const CREDENTIALS = "Credentials";
+export const ADDAVAILABLECREDENTIALS = "addavailablecredentials";
+export const MISSION_SCREEN = "Mission";
+export const KNOWLEDGEBASE_SCREEN = "Knowledge Base"
+export const ACCOUNTINGREPORT = "Accounting Report"
+export const POSTJOURNALENTRY = "postjournalentry"
