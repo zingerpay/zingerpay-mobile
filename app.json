@@ -1,30 +1,41 @@
 {
-  "expo": {
-    "name": "zingerpay",
-    "slug": "zingerpay",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+   "expo": {
+      "name": "zingerpay",
+      "slug": "zingerpay",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "userInterfaceStyle": "light",
+      "splash": {
+         "image": "./assets/splash.png",
+         "resizeMode": "contain",
+         "backgroundColor": "#ffffff"
+      },
+      "assetBundlePatterns": [
+         "**/*"
+      ],
+      "ios": {
+         "supportsTablet": true,
+         "bundleIdentifier": "com.zingerpay.app"
+      },
+      "android": {
+         "adaptiveIcon": {
+            "foregroundImage": "./assets/adaptive-icon.png",
+            "backgroundColor": "#ffffff"
+         },
+         "package": "com.zingerpay.app"
+      },
+      "extra": {
+         "eas": {
+            "projectId": "0f54f4b2-e74a-4ddc-88fc-2c1186aea798"
+         }
+      },
+      "runtimeVersion": {
+         "policy": "appVersion"
+      },
+      "updates": {
+         "url": "https://u.expo.dev/0f54f4b2-e74a-4ddc-88fc-2c1186aea798",
+         "fallbackToCacheTimeout": 15000
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+   }
 }

@@ -1,18 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import 'react-native-gesture-handler';
-import {
-  IconButton,
-  SafeAreaView,
-  Typography,
-  useColors,
-} from "@hoddy-ui/core";
-import AppNavigator from './src/navigations';
-import HoddyUI, { UIThemeProvider } from '@hoddy-ui/core';
-import WebView from 'react-native-webview';
+import HoddyUI, { SafeAreaView } from "@hoddy-ui/core";
+import { StyleSheet } from "react-native";
+import "react-native-gesture-handler";
+import WebView from "react-native-webview";
 export default function App() {
   HoddyUI.initialize({
-    
     colors: {
       light: {
         primary: {
@@ -28,17 +19,22 @@ export default function App() {
       },
     },
   });
+
   return (
-<SafeAreaView>
-    <WebView source={{ uri: 'https://gbp.zingerpay.net/' }} style={{ flex: 1 }} /></SafeAreaView>
+    <SafeAreaView>
+      <WebView
+        source={{ uri: "https://gbp.zingerpay.net/" }}
+        style={{ flex: 1 }}
+      />
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
